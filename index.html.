@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpusFix – Service rund ums Haus</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #2e7d32;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+header img {
+    max-width: 180px;
+    margin-bottom: 15px;
+}
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+h2 {
+    color: #2e7d32;
+}
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+.services li {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #2e7d32;
+}
+.about, .contact {
+    background: white;
+    padding: 30px;
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    background: #2e7d32;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="OpusFix Logo">
+    <h1>OpusFix</h1>
+    <p>Service rund ums Haus – zuverlässig & professionell</p>
+</header>
+
+<section class="services">
+    <h2>Unsere Leistungen</h2>
+    <ul>
+        <li>🌿 Gartenarbeit & Gartenpflege (Rasenmähen, Heckenschnitt, Baumfällung)</li>
+        <li>🧹 Reinigungsarbeiten & Fensterreinigung</li>
+        <li>🧱 Trockenbau (Trennwände, Decken, Vorsatzschalen)</li>
+        <li>🎨 Renovierung: Streichen, Tapezieren, Tapeten entfernen</li>
+        <li>🧩 Fliesenarbeiten</li>
+        <li>⚡ Einfache Elektroarbeiten im Rahmen von Renovierungen</li>
+        <li>📦 Entrümpelung & Haushaltsauflösung</li>
+        <li>☀️ Reinigung & Installation von Solarpaneelen</li>
+    </ul>
+</section>
+
+<section class="about">
+    <h2>Über OpusFix</h2>
+    <p>
+        OpusFix ist Ihr zuverlässiger Ansprechpartner für Gartenarbeit, Renovierung, Trockenbau
+        und Reinigungsarbeiten. Wir arbeiten sauber, termingerecht und kundenorientiert.
+        Faire Preise, Transparenz und Qualität stehen bei uns an erster Stelle.
+    </p>
+</section>
+
+<section class="contact">
+    <h2>Kontakt</h2>
+    <p>📍 Standort: <strong>Moers, NRW</strong></p>
+    <p>📩 E-Mail: <strong>opusfix@outlook.de</strong></p>
+    <a class="button" href="mailto:opusfix@outlook.de">Jetzt anfragen</a>
+</section>
+
+<footer>
+    <p>© 2026 OpusFix – Alle Rechte vorbehalten</p>
+</footer>
+
+</body>
+</html>
+
+
+OpusFix-Website
+├── index.html
+└── logo.png
